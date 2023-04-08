@@ -1,0 +1,12 @@
+get http://localhost:3000/
+
+###
+
+POST http://localhost:3000/register
+
+{
+    "username" :"yat",
+      "password":"pass",
+      "name": "yat",
+      "email":"email"
+}
